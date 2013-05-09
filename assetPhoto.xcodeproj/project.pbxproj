@@ -18,6 +18,9 @@
 		CE77E2F91679769600957634 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE77E2F81679769600957634 /* Default-568h@2x.png */; };
 		CE77E2FC1679769600957634 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE77E2FA1679769600957634 /* MainStoryboard.storyboard */; };
 		CE77E2FF1679769600957634 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77E2FE1679769600957634 /* ViewController.m */; };
+		CE77E3071679774E00957634 /* assetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77E3061679774E00957634 /* assetViewController.m */; };
+		CE77E309167977A200957634 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE77E308167977A200957634 /* AssetsLibrary.framework */; };
+		CE77E31F16797AC200957634 /* PhotoAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77E31E16797AC200957634 /* PhotoAssets.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,11 @@
 		CE77E2FB1679769600957634 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CE77E2FD1679769600957634 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CE77E2FE1679769600957634 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE77E3051679774E00957634 /* assetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assetViewController.h; sourceTree = "<group>"; };
+		CE77E3061679774E00957634 /* assetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = assetViewController.m; sourceTree = "<group>"; };
+		CE77E308167977A200957634 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CE77E31D16797AC200957634 /* PhotoAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAssets.h; sourceTree = "<group>"; };
+		CE77E31E16797AC200957634 /* PhotoAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAssets.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE77E309167977A200957634 /* AssetsLibrary.framework in Frameworks */,
 				CE77E2E31679769500957634 /* UIKit.framework in Frameworks */,
 				CE77E2E51679769500957634 /* Foundation.framework in Frameworks */,
 				CE77E2E71679769500957634 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +65,11 @@
 		CE77E2D31679769500957634 = {
 			isa = PBXGroup;
 			children = (
+				CE77E308167977A200957634 /* AssetsLibrary.framework */,
+				CE77E3051679774E00957634 /* assetViewController.h */,
+				CE77E3061679774E00957634 /* assetViewController.m */,
+				CE77E31D16797AC200957634 /* PhotoAssets.h */,
+				CE77E31E16797AC200957634 /* PhotoAssets.m */,
 				CE77E2E81679769500957634 /* assetPhoto */,
 				CE77E2E11679769500957634 /* Frameworks */,
 				CE77E2DF1679769500957634 /* Products */,
@@ -176,6 +190,8 @@
 				CE77E2EF1679769500957634 /* main.m in Sources */,
 				CE77E2F31679769600957634 /* AppDelegate.m in Sources */,
 				CE77E2FF1679769600957634 /* ViewController.m in Sources */,
+				CE77E3071679774E00957634 /* assetViewController.m in Sources */,
+				CE77E31F16797AC200957634 /* PhotoAssets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
